@@ -19,7 +19,7 @@ import os
 from ultralytics import YOLO
 
 # Define the path to the model in Google Drive
-model_path = '/content/drive/MyDrive/runs ini lah 151125/detect/train/weights/best.pt'
+model_path = 'best.pt'
 
 # Load the YOLOv8 model (ensure this runs only once)
 @st.cache_resource
